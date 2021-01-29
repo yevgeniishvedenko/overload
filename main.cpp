@@ -32,16 +32,16 @@ void main()
 	Sort(arr_2d_c, ROWS, COLS);
 	cout << "================================================" << endl;
 	cout << "Сумма одномерного целочисленного:" << endl;
-	cout << Sum(arr, n) << endl;
+	cout << Sum<int>(arr, n) << endl;
 	cout << "================================================" << endl;
 	cout << "Сумма двумерного целочисленного:" << endl;
-	cout << Sum(arr_2d, ROWS, COLS) << endl;
+	cout << Sum<int>(arr_2d, ROWS, COLS) << endl;
 	cout << "================================================" << endl;
 	cout << "Сумма одномерного с плавающей точкой:" << endl;
-	cout << Sum(arr_d, n) << endl;
+	cout << Sum<double>(arr_d, n) << endl;
 	cout << "================================================" << endl;
 	cout << "Сумма двумерного с плавающей точкой:" << endl;
-	cout << Sum(arr_2d_d, ROWS, COLS) << endl;
+	cout << Sum<double>(arr_2d_d, ROWS, COLS) << endl;
 	cout << "================================================" << endl;
 }
 
