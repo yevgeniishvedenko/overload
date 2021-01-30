@@ -1,11 +1,11 @@
-#include "functions.h"
+ï»¿#include "functions.h"
 
 template <class T>
 T Sum(T arr[], const int n)
 {
 	for (int i = 0; i < n; i++) arr[i] = rand() % n;
 	for (int i = 0; i < n; i++) cout << arr[i] << "  ";
-	cout << endl; cout << "Ñóììà ìàññèâà ðàâíà: ";
+	cout << endl; cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: ";
 	T s = 0;
 	for (int i = 0; i < n; i++) s += arr[i];
 	return s;
@@ -22,7 +22,7 @@ T Sum(T arr[ROWS][COLS], const int m, const int n)
 		for (int j = 0; j < n; j++) cout << arr[i][j] << "  ";
 		cout << endl;
 	}
-	cout << endl; cout << "Ñóììà ìàññèâà ðàâíà: ";
+	cout << endl; cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: ";
 	T s = 0;
 	for (int i = 0; i < m; i++)
 	{
@@ -38,7 +38,7 @@ T Sum(T arr[ROWS][COLS], const int m, const int n)
 //		arr[i] /= 10;
 //	}
 //	for (int i = 0; i < n; i++) cout << arr[i] << "  ";
-//	cout << endl; cout << "Ñóììà ìàññèâà ðàâíà: ";
+//	cout << endl; cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: ";
 //	T s = 0.00;
 //	for (int i = 0; i < n; i++) s += arr[i];
 //	return s;
@@ -58,7 +58,7 @@ T Sum(T arr[ROWS][COLS], const int m, const int n)
 //		for (int j = 0; j < n; j++) cout << arr[i][j] << "  ";
 //		cout << endl;
 //	}
-//	cout << endl; cout << "Ñóììà ìàññèâà ðàâíà: ";
+//	cout << endl; cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: ";
 //	T s = 0.00;
 //	for (int i = 0; i < m; i++)
 //	{

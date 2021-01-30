@@ -1,11 +1,11 @@
-#include "functions.h"
+ï»¿#include "functions.h"
 
 void Sort(int arr[], const int n)
 {
 	for (int i = 0; i < n; i++) arr[i] = rand() % n;
 	for (int i = 0; i < n; i++) cout << arr[i] << "  ";
 	cout << endl;
-	//ñîðòèðîêà
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾ÐºÐ°
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
@@ -34,10 +34,10 @@ void Sort(int arr[ROWS][COLS], const int m, const int n)
 		cout << endl;
 	}
 	cout << endl;
-	//ñîðòèðîâêà
-	for (int c = 0; c <= (m * n); c++)//ïðîõîäû
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ°
+	for (int c = 0; c <= (m * n); c++)//Ð¿Ñ€Ð¾Ñ…Ð¾Ð´Ñ‹
 	{
-		//óïîðÿä ñòðîêè
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ñ€Ð¾ÐºÐ¸
 		for (int i = 0; i < m; i++)
 		{
 			for (int j = 0; j < n - 1; j++)
@@ -50,7 +50,7 @@ void Sort(int arr[ROWS][COLS], const int m, const int n)
 				}
 			}
 		}
-		//óïîðÿä ñòîëáö
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ð¾Ð»Ð±Ñ†
 		for (int x = 0; x < n; x++)
 		{
 			for (int z = 0; z < m - 1; z++)
@@ -79,7 +79,7 @@ void Sort(double arr[], const int n)
 	}
 	for (int i = 0; i < n; i++) cout << arr[i] << "  ";
 	cout << endl;
-	//ñîðòèðîêà
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾ÐºÐ°
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
@@ -111,10 +111,10 @@ void Sort(double arr[ROWS][COLS], const int m, const int n)
 		cout << endl;
 	}
 	cout << endl;
-	//ñîðòèðîâêà
-	for (int c = 0; c <= (m * n); c++)//ïðîõîäû
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ°
+	for (int c = 0; c <= (m * n); c++)//Ð¿Ñ€Ð¾Ñ…Ð¾Ð´Ñ‹
 	{
-		//óïîðÿä ñòðîêè
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ñ€Ð¾ÐºÐ¸
 		for (int i = 0; i < m; i++)
 		{
 			for (int j = 0; j < n - 1; j++)
@@ -127,7 +127,7 @@ void Sort(double arr[ROWS][COLS], const int m, const int n)
 				}
 			}
 		}
-		//óïîðÿä ñòîëáö
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ð¾Ð»Ð±Ñ†
 		for (int x = 0; x < n; x++)
 		{
 			for (int z = 0; z < m - 1; z++)
@@ -152,7 +152,7 @@ void Sort(char arr[], const int n)
 	for (int i = 0; i < n; i++) arr[i] = rand() % 256;
 	for (int i = 0; i < n; i++) cout << arr[i] << "  ";
 	cout << endl;
-	//ñîðòèðîêà
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾ÐºÐ°
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
@@ -180,10 +180,10 @@ void Sort(char arr[ROWS][COLS], const int m, const int n)
 		cout << endl;
 	}
 	cout << endl;
-	//ñîðòèðîâêà
-	for (int c = 0; c <= (m * n); c++)//ïðîõîäû
+	//ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ°
+	for (int c = 0; c <= (m * n); c++)//Ð¿Ñ€Ð¾Ñ…Ð¾Ð´Ñ‹
 	{
-		//óïîðÿä ñòðîêè
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ñ€Ð¾ÐºÐ¸
 		for (int i = 0; i < m; i++)
 		{
 			for (int j = 0; j < n - 1; j++)
@@ -196,7 +196,7 @@ void Sort(char arr[ROWS][COLS], const int m, const int n)
 				}
 			}
 		}
-		//óïîðÿä ñòîëáö
+		//ÑƒÐ¿Ð¾Ñ€ÑÐ´ ÑÑ‚Ð¾Ð»Ð±Ñ†
 		for (int x = 0; x < n; x++)
 		{
 			for (int z = 0; z < m - 1; z++)
